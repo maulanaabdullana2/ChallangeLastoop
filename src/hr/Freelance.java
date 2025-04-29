@@ -35,7 +35,7 @@ public class Freelance extends Employee implements ISalary {
 
 
     @Override
-    public void calculteTotalSalry() {
+    public void calculteTotalInsurance() {
 
     }
 

@@ -38,7 +38,7 @@ public class Contract extends Employee implements ISalary {
     }
 
     @Override
-    public void calculteTotalSalry() {
+    public void calculteTotalInsurance() {
         setTotalInsurance((getSalary() * insurence.getMedical() / 100) * insurence.getSelf());
     }
 
@@ -49,7 +49,6 @@ public class Contract extends Employee implements ISalary {
 
     @Override
     public void CalculateTotalsalary() {
-
         setTotalSalary((int) (getSalary() - (getTotalInsurance()+getTotalOvertime()+ getTotalTax())));
     }
 

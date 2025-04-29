@@ -1,7 +1,7 @@
 package Allowence;
 
 public interface ISalary {
-    public void calculteTotalSalry();
+    public void calculteTotalInsurance();
 
     public  void calculateOvetime();
 

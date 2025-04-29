@@ -5,10 +5,10 @@ public class SalaryServiceimpl implements SalaryInterface {
     @Override
     public void generateSalary(List<Permanent> employees, List<Contract> contracts) {
         for (Permanent emp : employees) {
-            emp.calculteTotalSalry();
+            emp.calculteTotalInsurance();
         }
         for (Contract emp : contracts) {
-            emp.calculteTotalSalry();
+            emp.calculteTotalInsurance();
         }
     }
 

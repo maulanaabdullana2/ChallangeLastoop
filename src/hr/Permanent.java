@@ -44,7 +44,7 @@ public class Permanent extends Employee implements ISalary {
     }
 
     @Override
-    public void calculteTotalSalry() {
+    public void calculteTotalInsurance() {
         setTotalInsurance((getSalary() * insurence.getMedical() / 100) * (insurence.getSelf() + insurence.getDependent()));
     }
 
